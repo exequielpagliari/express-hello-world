@@ -7,8 +7,8 @@ app.get("/", (req, res) => res.type('html').send(html));
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
-var http = require('http');
-var server = http.createServer();
+var https = require('httpS');
+var server = https.createServer();
  
 function mensaje(petic, resp) {
 	resp.writeHead(200, {'content-type': 'text/plain'});
